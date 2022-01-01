@@ -1,0 +1,1596 @@
+{
+    "shortid": "alksdjfv",
+    "user": {
+        "username": "code"
+    },
+    "endcontext": {
+        "seed": 615608528,
+        "lines": 1,
+        "level_lines": 0,
+        "level_lines_needed": 1,
+        "inputs": 10,
+        "holds": 0,
+        "time": {
+            "start": 0,
+            "zero": false,
+            "locked": false,
+            "prev": 0,
+            "frameoffset": 0
+        },
+        "score": 0,
+        "zenlevel": 1,
+        "zenprogress": 0,
+        "level": 1,
+        "combo": 0,
+        "currentcombopower": 0,
+        "topcombo": 0,
+        "btb": 0,
+        "topbtb": 0,
+        "tspins": 0,
+        "piecesplaced": 1,
+        "clears": {
+            "singles": 0,
+            "doubles": 0,
+            "triples": 0,
+            "quads": 0,
+            "realtspins": 0,
+            "minitspins": 0,
+            "minitspinsingles": 0,
+            "tspinsingles": 0,
+            "minitspindoubles": 0,
+            "tspindoubles": 0,
+            "tspintriples": 0,
+            "tspinquads": 0,
+            "allclear": 0
+        },
+        "garbage": {
+            "sent": 0,
+            "received": 0,
+            "attack": 0,
+            "cleared": 0
+        },
+        "kills": 0,
+        "finesse": {
+            "combo": 1,
+            "faults": 0,
+            "perfectpieces": 1
+        },
+        "finalTime": 10000.66666666667,
+        "gametype": "40l"
+    },
+    "ts": "2021-12-24T01:27:52.173Z",
+    "gametype": "40l",
+    "verified": false,
+    "data": {
+        "frames": 626,
+        "events": [
+            {
+                "frame": 0,
+                "type": "start",
+                "data": {}
+            },
+            {
+                "frame": 0,
+                "type": "full",
+                "data": {
+                    "successful": false,
+                    "gameoverreason": null,
+                    "replay": {},
+                    "source": {},
+                    "options": {
+                        "version": 15,
+                        "seed_random": false,
+                        "anchorseed": true,
+                        "seed": 615608528,
+                        "allow180": true,
+                        "g": 0.02,
+                        "objective": {
+                            "type": "lines",
+                            "count": 40
+                        },
+                        "handling": {
+                            "arr": 0,
+                            "das": 4.9,
+                            "dcd": 0,
+                            "sdf": 41,
+                            "safelock": true,
+                            "cancel": false
+                        },
+                        "countdown": true,
+                        "countdown_interval": 1000,
+                        "precountdown": 5000,
+                        "prestart": 1000,
+                        "mission": "CLEAR 40 LINES!",
+                        "zoominto": "slow",
+                        "bgmnoreset": true,
+                        "slot_counter1": "stopwatch",
+                        "slot_counter2": "lines",
+                        "slot_counter3": "pieces",
+                        "slot_counter4": "keys",
+                        "slot_counter5": "finesse",
+                        "slot_bar2": "progress",
+                        "can_retry": true,
+                        "pro": true,
+                        "stride": true,
+                        "no_szo": true,
+                        "garbagespeed": 20,
+                        "garbagecap": 8,
+                        "kickset": "SRS+",
+                        "boardwidth": 10,
+                        "boardheight": 20,
+                        "boardbuffer": 20,
+                        "physical": true,
+                        "nextcount": 5,
+                        "minoskin": {
+                            "z": "tetrio",
+                            "l": "tetrio",
+                            "o": "tetrio",
+                            "s": "tetrio",
+                            "i": "tetrio",
+                            "j": "tetrio",
+                            "t": "tetrio",
+                            "other": "tetrio"
+                        },
+                        "ghostskin": "tetrio",
+                        "boardskin": "generic"
+                    },
+                    "stats": {
+                        "seed": 615608528,
+                        "lines": 0,
+                        "level_lines": 0,
+                        "level_lines_needed": 1,
+                        "inputs": 0,
+                        "holds": 0,
+                        "time": {
+                            "start": 0,
+                            "zero": true,
+                            "locked": false,
+                            "prev": 0,
+                            "frameoffset": 0
+                        },
+                        "score": 0,
+                        "zenlevel": 1,
+                        "zenprogress": 0,
+                        "level": 1,
+                        "combo": 0,
+                        "currentcombopower": 0,
+                        "topcombo": 0,
+                        "btb": 0,
+                        "topbtb": 0,
+                        "tspins": 0,
+                        "piecesplaced": 0,
+                        "clears": {
+                            "singles": 0,
+                            "doubles": 0,
+                            "triples": 0,
+                            "quads": 0,
+                            "realtspins": 0,
+                            "minitspins": 0,
+                            "minitspinsingles": 0,
+                            "tspinsingles": 0,
+                            "minitspindoubles": 0,
+                            "tspindoubles": 0,
+                            "tspintriples": 0,
+                            "tspinquads": 0,
+                            "allclear": 0
+                        },
+                        "garbage": {
+                            "sent": 0,
+                            "received": 0,
+                            "attack": 0,
+                            "cleared": 0
+                        },
+                        "kills": 0,
+                        "finesse": {
+                            "combo": 0,
+                            "faults": 0,
+                            "perfectpieces": 0
+                        }
+                    },
+                    "targets": [],
+                    "fire": 0,
+                    "game": {
+                        "board": [
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ],
+                            [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        ],
+                        "bag": [
+                            "l",
+                            "i",
+                            "s",
+                            "o",
+                            "j",
+                            "z",
+                            "t"
+                        ],
+                        "hold": {
+                            "piece": null,
+                            "locked": false
+                        },
+                        "g": 0.02,
+                        "controlling": {
+                            "ldas": 0,
+                            "ldasiter": 0,
+                            "lshift": false,
+                            "rdas": 0,
+                            "rdasiter": 0,
+                            "rshift": false,
+                            "lastshift": 0,
+                            "softdrop": false
+                        },
+                        "handling": {
+                            "arr": 0,
+                            "das": 4.9,
+                            "dcd": 0,
+                            "sdf": 41,
+                            "safelock": true,
+                            "cancel": false
+                        },
+                        "playing": true
+                    },
+                    "killer": {
+                        "name": null,
+                        "type": "sizzle"
+                    },
+                    "assumptions": {},
+                    "aggregatestats": {
+                        "apm": 0,
+                        "pps": 0,
+                        "vsscore": 0
+                    }
+                }
+            },
+            {
+                "frame": 100,
+                "type": "keydown",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 101,
+                "type": "keyup",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 102,
+                "type": "keydown",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 103,
+                "type": "keyup",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 104,
+                "type": "keydown",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 105,
+                "type": "keyup",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 110,
+                "type": "keydown",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 182,
+                "type": "keyup",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 182,
+                "type": "keydown",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 183,
+                "type": "keyup",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 183,
+                "type": "keydown",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 284,
+                "type": "keyup",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 284,
+                "type": "keydown",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 285,
+                "type": "keyup",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 285,
+                "type": "keydown",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 393,
+                "type": "keyup",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 393,
+                "type": "keydown",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 394,
+                "type": "keyup",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 394,
+                "type": "keydown",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 502,
+                "type": "keyup",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 502,
+                "type": "keydown",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 503,
+                "type": "keyup",
+                "data": {
+                    "key": "moveRight",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 503,
+                "type": "keydown",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 614,
+                "type": "keyup",
+                "data": {
+                    "key": "rotateCW",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 614,
+                "type": "keydown",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 618,
+                "type": "keyup",
+                "data": {
+                    "key": "moveLeft",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 619,
+                "type": "keydown",
+                "data": {
+                    "key": "hardDrop",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 624,
+                "type": "keyup",
+                "data": {
+                    "key": "hardDrop",
+                    "subframe": 0
+                }
+            },
+            {
+                "frame": 625,
+                "type": "end",
+                "data": {
+                    "reason": "clear",
+                    "export": {
+                        "successful": true,
+                        "gameoverreason": "clear",
+                        "replay": {},
+                        "source": {},
+                        "options": {
+                            "version": 15,
+                            "seed_random": false,
+                            "anchorseed": true,
+                            "seed": 615608528,
+                            "allow180": true,
+                            "g": 0.02,
+                            "objective": {
+                                "type": "lines",
+                                "count": 40
+                            },
+                            "handling": {
+                                "arr": 0,
+                                "das": 4.9,
+                                "dcd": 0,
+                                "sdf": 41,
+                                "safelock": true,
+                                "cancel": false
+                            },
+                            "countdown": true,
+                            "countdown_interval": 1000,
+                            "precountdown": 5000,
+                            "prestart": 1000,
+                            "mission": "CLEAR 40 LINES!",
+                            "zoominto": "slow",
+                            "bgmnoreset": true,
+                            "slot_counter1": "stopwatch",
+                            "slot_counter2": "lines",
+                            "slot_counter3": "pieces",
+                            "slot_counter4": "keys",
+                            "slot_counter5": "finesse",
+                            "slot_bar2": "progress",
+                            "can_retry": true,
+                            "pro": true,
+                            "stride": true,
+                            "no_szo": true,
+                            "garbagespeed": 20,
+                            "garbagecap": 8,
+                            "kickset": "SRS+",
+                            "boardwidth": 10,
+                            "boardheight": 20,
+                            "boardbuffer": 20,
+                            "physical": true,
+                            "nextcount": 5,
+                            "minoskin": {
+                                "z": "tetrio",
+                                "l": "tetrio",
+                                "o": "tetrio",
+                                "s": "tetrio",
+                                "i": "tetrio",
+                                "j": "tetrio",
+                                "t": "tetrio",
+                                "other": "tetrio"
+                            },
+                            "ghostskin": "tetrio",
+                            "boardskin": "generic"
+                        },
+                        "stats": {
+                            "seed": 615608528,
+                            "lines": 40,
+                            "level_lines": 0,
+                            "level_lines_needed": 1,
+                            "inputs": 379,
+                            "holds": 49,
+                            "time": {
+                                "start": 0,
+                                "zero": false,
+                                "locked": false,
+                                "prev": 0,
+                                "frameoffset": 0
+                            },
+                            "score": 0,
+                            "zenlevel": 1,
+                            "zenprogress": 0,
+                            "level": 1,
+                            "combo": 0,
+                            "currentcombopower": 0,
+                            "topcombo": 0,
+                            "btb": 0,
+                            "topbtb": 0,
+                            "tspins": 0,
+                            "piecesplaced": 1,
+                            "clears": {
+                                "singles": 0,
+                                "doubles": 0,
+                                "triples": 0,
+                                "quads": 0,
+                                "realtspins": 0,
+                                "minitspins": 0,
+                                "minitspinsingles": 0,
+                                "tspinsingles": 0,
+                                "minitspindoubles": 0,
+                                "tspindoubles": 0,
+                                "tspintriples": 0,
+                                "tspinquads": 0,
+                                "allclear": 0
+                            },
+                            "garbage": {
+                                "sent": 0,
+                                "received": 0,
+                                "attack": 0,
+                                "cleared": 0
+                            },
+                            "kills": 0,
+                            "finesse": {
+                                "combo": 1,
+                                "faults": 0,
+                                "perfectpieces": 1
+                            }
+                        },
+                        "targets": [],
+                        "fire": 0,
+                        "game": {
+                            "board": [
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null
+                                ],
+                                [
+                                    "o",
+                                    "o",
+                                    "j",
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    "s",
+                                    null
+                                ],
+                                [
+                                    "o",
+                                    "o",
+                                    "j",
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    "s",
+                                    "s"
+                                ],
+                                [
+                                    "i",
+                                    "j",
+                                    "j",
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    "l",
+                                    "s",
+                                    "s"
+                                ],
+                                [
+                                    "i",
+                                    "o",
+                                    "o",
+                                    "i",
+                                    null,
+                                    null,
+                                    "z",
+                                    "l",
+                                    "s",
+                                    "s"
+                                ],
+                                [
+                                    "i",
+                                    "o",
+                                    "o",
+                                    "i",
+                                    null,
+                                    "z",
+                                    "z",
+                                    "l",
+                                    "l",
+                                    "s"
+                                ]
+                            ],
+                            "bag": [
+                                "s",
+                                "j",
+                                "t",
+                                "j",
+                                "l",
+                                "s",
+                                "o",
+                                "z",
+                                "i"
+                            ],
+                            "hold": {
+                                "piece": "l",
+                                "locked": false
+                            },
+                            "g": 0.02,
+                            "controlling": {
+                                "ldas": 0,
+                                "ldasiter": 0,
+                                "lshift": false,
+                                "rdas": 0,
+                                "rdasiter": 0,
+                                "rshift": false,
+                                "lastshift": -1,
+                                "softdrop": false
+                            },
+                            "handling": {
+                                "arr": 0,
+                                "das": 4.9,
+                                "dcd": 0,
+                                "sdf": 41,
+                                "safelock": true,
+                                "cancel": false
+                            },
+                            "playing": false
+                        },
+                        "killer": {
+                            "name": null,
+                            "type": "sizzle"
+                        },
+                        "assumptions": {}
+                    }
+                }
+            }
+        ]
+    }
+}
